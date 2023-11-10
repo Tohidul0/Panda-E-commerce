@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="first">
+       
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container">
                   <a class="navbar-brand" href="#">
@@ -18,16 +18,16 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#hm">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpk">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subb">Subscribe</a>
                       </li>
                       
                       
@@ -36,13 +36,13 @@
                 </div>
               </nav>
 
-        </div>
+       
         
     </header>
 
     <main>
     <!--carasol shure bam theke dane-->
-        <div class="corasol pb-5 ps-5 pe-5">
+        <div id="hm" class="corasol pb-5 ps-5 pe-5">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active gb  ">
@@ -107,24 +107,24 @@
 
     <!--middle section start here-->
             <div class="container  text-center pb-5 overflow-hidden">
-                <div class="row g-5">
+                <div class="row g-4">
                   
                     <div class="col-lg-4  col-md-6">
                         <div class="d-flex justify-content-between align-items-center bg-danger justify-content-around rounded ">
-                            <h1 class="p-3 text-white">Watch</h1>
-                            <img class="p-3" src="images/categories/watch.png" alt="">
+                            <h1 class=" text-white">Watch</h1>
+                            <img class="" src="images/categories/watch.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-6">
                         <div class="d-flex justify-content-between align-items-center bg-success justify-content-around rounded ">
-                            <h1 class="p-3 text-white">Shoes</h1>
-                            <img class="p-3" src="images/categories/shoes.png" alt="">
+                            <h1 class=" text-white">Shoes</h1>
+                            <img class="" src="images/categories/shoes.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-6">
                         <div class="d-flex justify-content-between align-items-center bg-primary justify-content-around rounded ">
-                            <h1 class="p-3 text-white">Bag</h1>
-                            <img class="p-3" src="images/categories/bag.png" alt="">
+                            <h1 class=" text-white">Bag</h1>
+                            <img class="" src="images/categories/bag.png" alt="">
                         </div>
                     </div>
      
@@ -134,7 +134,7 @@
      <!--midle part end here---------------------------------------------------------------->     
          <h1 class="ps-5">BackPack</h1> 
      <!--backpack start herer----------------------------------------------------------->
-     <section class="backpack ps-5 pe-5 pb-5">
+     <section  id="backpk" class="backpack ps-5 pe-5 pb-5">
       <div class="row gx-3">
         <div  class="col-lg-4 shadow-lg">
         <div class="card " style="width: 100%;">
@@ -177,7 +177,7 @@
 
     <!--Shoes catagory start here--------------------------------------->
     <h1 class="ps-5">Shoes</h1>
-      <section class="shoes ps-5 pe-5 pb-5">
+      <section id="shoes" class="shoes ps-5 pe-5 pb-5">
         <div class="row gx-3">
           <div  class="col-lg-4 shadow-lg">
           <div class="card " style="width: 100%;">
@@ -215,14 +215,28 @@
         </div>
       </section>
 
+    <!--shoes end here-------------------------------------------->
 
-   
+
+   <!--  ----------------------subscribe start here----------------------->
+    <section id="subb"  class= "subscribe  p-5 ">
+
+     <div class="gb rounded d-flex justify-content-center align-items-center" style="height: 350px;">
+        <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input  style="width: 250px;" type="text" placeholder="Email" class="rounded">
+            <br>
+            <button  type="button" class="btn btn-warning buttu">Subscribe</button>
+        </div>
+     </div>
+    </section>
     
     </main>
 
-    <footer>
+    <footer class="text-center px-5 round-3">
 
-
+        <p class="text-light bg-dark"><small>©2023. Panda Commerce. All rights reserved. Akil, Chittagong.</small></p>
     </footer>
 
 

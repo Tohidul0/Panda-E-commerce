@@ -4,3 +4,7 @@
 .categories img{
     width: 100px;
 }
+.buttu{
+    background: linear-gradient(to right, #ffcc00, #ff6666);
+    font-weight: bold;
+}
